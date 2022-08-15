@@ -1,0 +1,58 @@
+p{
+    color: purple;
+    background-color: orange;
+}
+
+h1{
+    color: blue;
+}
+/*class use dot; id use #*/
+.food{
+    color: red;
+}
+
+.person{
+    color: green;
+}
+
+.background-grey{
+    background-color:grey;
+}
+
+#css-h1{
+    color:blue;
+    background-color: yellow;
+}
+
+[type]{
+    background-color: grey;
+}
+
+/* @keyframes change-color{
+    from {background-color:red;}
+    to {background-color:blue;}
+} */
+
+@keyframes change-color{
+    0% {background-color:red; top:10px; left:10px;}
+    20% {background-color:orange; top:25px; left:25px;}
+    40% {background-color:yellow; top:40px; left:40px;}
+    60% {background-color:green; top:60px; left:60px;}
+    80% {background-color:blue; top:80px; left:80px;}
+    90% {background-color:cyan; top:90px; left:90px;}
+    100% {background-color:purple; top:100px; left:100px;}
+}
+
+.box{
+    width:100px;
+    height:50px;
+    background-color:grey;
+    position:relative;
+}
+
+.box-animation:hover{
+    animation-name:change-color;
+    animation-duration:5s;
+    animation-iteration-count:2;
+    /* animation-delay:2s; */
+}
